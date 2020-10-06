@@ -1,0 +1,188 @@
+/* General */
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Hind Siliguri', sans-serif;
+    
+
+}
+.clear {
+    content: "";
+  clear: both;
+  display: table;
+}
+p, li {
+    font-size: 1.25em;
+}
+/*Header Icons */
+.header_icons img {
+    width: 20px;
+    
+    
+}
+/* Sidebar */
+.side_bar {
+    background-color: #1D2133; 
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    padding: 100px 0;
+    
+
+}
+/* Image */
+.side_bar img {
+    width: 150px; 
+    padding-bottom: 20px;
+    border-radius: 50%;
+}
+/* Navigation Bar */
+.main_nav_link {
+    display: block;
+    
+    text-decoration: none;
+    font-size: 1.7em;
+    padding: 10px 0;
+    
+    color: #e1e2e9; 
+   
+}
+
+/* ============
+Right Section 
+===============*/
+/* Header */
+h1 {
+    font-size: 3em; 
+    margin: 0;
+    padding: 0; 
+    color:#1D2133;
+ }
+ .header p {
+     margin: 0; 
+     padding: 0;
+     font-size: 1.2em;
+ }
+ .header_icon{
+     padding-right: 7px;
+     padding-top: 2px;
+     font-size: 1.5em; 
+     color:#4C5585;
+ 
+ }
+ .icon_text {
+     padding-right: 7px;
+ }
+ .header_icon:first-of-type {
+    padding-left: 0px;
+   
+    
+ }
+ /*========
+ About Me  
+ ==========*/
+h2{
+    font-size: 2em;
+    margin-top: 30px;
+    color: #4C5585;
+}
+
+.about_me_para {
+    width: 55%;
+    text-align: justify;
+}
+/* ========
+Work
+============ */
+h3 {
+     padding: 0;
+    margin: 0;  
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.work ul {
+    list-style-type:none;
+    margin: 10px 0;
+    
+}
+.work li {
+    padding-left: 35px;
+}
+.work small {
+    color: gray;
+}
+ .work_link {
+    text-decoration: none;
+    color: #4C5585;
+
+}
+
+/* =======
+Education
+========= */
+
+.certification a {
+    text-decoration: none;
+    color: #4C5585;
+}
+.right_section {
+    position: absolute;
+    left: 300px;
+    margin-top: 60px;
+}
+
+.skill_web_development {
+display: inline-block;
+
+}
+.skill_business {
+    display: inline-block;
+    margin-left: 40px;
+  
+}
+/* .skills {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    
+
+} */
+/* Skills */
+.skills_container {
+    width: 45%; 
+    background-color: #ddd;
+   
+
+}
+.skills_general_style {
+    text-align: right;
+    color: whitesmoke;
+    background-color: #4C5585;
+    
+    
+}
+.html {
+    width: 90%;
+}
+.css{
+    width: 85%;
+   }
+.js {
+    width: 60%
+}
+.jquery {
+    width: 65%
+}
+.react {
+    width: 30%
+}
+.wordpress{
+    width: 80%;
+}
+.end_note {
+    padding-bottom: 20px;
+}
